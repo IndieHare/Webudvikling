@@ -104,13 +104,13 @@ flex: none;
 }
 /* Content area can shrink and hides overflow */
 
-.card h3, .card h4 {
+/*.card h3, .card h4 {
 margin: 0;
 font-size: clamp(1rem, 2vw, 1.25rem);
 white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis;
-}
+}*/
 
 .card p {
 margin: 0;
@@ -128,4 +128,5 @@ margin-top: auto; /* keep actions visible at bottom */
 
 /*@container (max-width: 320px) {
 .card p { -webkit-line-clamp: 4; }
+
 }*/
