@@ -47,7 +47,7 @@ header {
   align-items: center;
   align-content: center;
   gap: 0.75rem;
-  padding-left: 0.75rem;
+  padding: 0.75rem 0.75rem;
   grid-area: header; /*assigned to the header area*/
 }
 
@@ -167,3 +167,4 @@ footer {
     font-size: 1.5rem;
   }
 }
+
