@@ -1,0 +1,39 @@
+.hero img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.3rem;
+}
+
+main ul {
+  padding-left: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+article p {
+  padding-bottom: 1rem;
+}
+
+/*PROFILES*/
+.card {
+  padding: 0.75rem 0;
+}
+
+.card-img {
+  height: auto;
+  border-radius: 50%;
+}
+
+/*FLEX ASIDE*/
+.item .column {
+  padding: 0 0.5rem;
+}
+
+/*PROFILES*/
+
+.card-content {
+  text-align: justify;
+}
+
+.quote {
+  font-style: italic;
+}

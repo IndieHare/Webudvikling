@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>IndieHare website/Contacts</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link href="contacts.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="item">
+        <img src="img/Logo-indiehare-cropped.png" alt="Our logo" />
+        <h1>IndieHare</h1>
+      </header>
+      <nav class="item">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <!--<li>
+            <a href="about-us.html">About us</a>
+          </li>-->
+          <li>
+            <a href="services.html">Services</a>
+          </li>
+          <li>
+            <a href="contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <main class="item">
+        <div class="contacts-container">
+          <form action="">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Denmark</option>
+              <option value="canada">Italy</option>
+              <option value="usa">Sweden</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </main>
+      <aside class="item">
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <img
+                class="card-img"
+                src="img/ritratto_donna_asiatica_web_ottimizzato.jpg"
+                alt="Jane"
+                style="width: 100%"
+              />
+              <div class="card-content">
+                <h2>Jane Hy</h2>
+                <p class="title">CEO &amp; Founder</p>
+                <p class="email">example@example.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img
+                class="card-img"
+                src="img/ritratto_uomo_web_ottimizzato.jpg"
+                alt="Mikko"
+                style="width: 100%"
+              />
+              <div class="card-content">
+                <h2>Mikko Rossonen</h2>
+                <p class="title">CTO</p>
+                <p class="email">example@example.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <img
+                class="card-img"
+                src="img/ritratto_web_ottimizzato.jpg"
+                alt="Jenna"
+                style="width: 100%"
+              />
+              <div class="card-content">
+                <h2>Linea Svenssonn</h2>
+                <p class="title">HR</p>
+                <p class="email">example@example.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <footer class="item">Copyright IndieHare A/S</footer>
+    </div>
+  </body>
+</html>
