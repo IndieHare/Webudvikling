@@ -120,16 +120,16 @@ overflow: hidden; /*no internal scrollbars*/
 }
 
 .card button {
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
-  /*content: flex-end;*/
+    border-radius: 0.3rem;
+    border: none;
+    outline: 0;
+    padding: 0.75rem;
+    color: white;
+    background-color: #1e1e1e;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
 }
 
 .card button:hover {
@@ -171,5 +171,6 @@ margin-top: auto; /* keep actions visible at bottom */
 .card p { -webkit-line-clamp: 4; }
 
 }*/
+
 
 
