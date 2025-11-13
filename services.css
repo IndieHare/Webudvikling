@@ -156,14 +156,14 @@ text-overflow: ellipsis;
 .card p {
 margin: 0;
 overflow: hidden;
-display: -webkit-box;
+/*display: -webkit-box;*/
 /*-webkit-box-orient: vertical;
 -webkit-line-clamp: 6; /* clamp lines to fit vertically */
 }
 
-.card .actions, .card button {
-margin-top: auto; /* keep actions visible at bottom */
-}
+/*.card .actions, .card button {
+margin-top: auto; /* keep actions visible at bottom
+}*/
 
 /* When the card gets narrow, reduce text lines further */
 
@@ -171,6 +171,3 @@ margin-top: auto; /* keep actions visible at bottom */
 .card p { -webkit-line-clamp: 4; }
 
 }*/
-
-
-
