@@ -19,6 +19,7 @@
         font-size: 1.5rem;
         color: rgb(9, 77, 116);
         font-weight: bold;
+        padding: 0.5rem 0;
 }
 
 /*  LAYOUT FROM MY WEBSITE  */
@@ -62,6 +63,7 @@ main p {
         font-size: 1.5rem;
         color: rgb(9, 77, 116);
         font-weight: bold;
+        padding: 0.5rem 0;
     }
 
 }
@@ -174,4 +176,5 @@ margin-top: auto; /* keep actions visible at bottom
 .card p { -webkit-line-clamp: 4; }
 
 }*/
+
 
