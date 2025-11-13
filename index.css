@@ -11,6 +11,7 @@ main ul {
 
 article p {
   padding-bottom: 1rem;
+  padding-top: 1rem;  /*NEW LINE*/
 }
 
 /*PROFILES*/
@@ -36,4 +37,5 @@ article p {
 
 .quote {
   font-style: italic;
+
 }
